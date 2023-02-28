@@ -1,0 +1,49 @@
+footer {
+    background-color: #0F9D58;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .contact, .pages {
+    flex-basis: 45%;
+    max-width: 45%;
+  }
+  
+  .contact h3, .pages h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .contact ul, .pages ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+  }
+  
+  .contact li, .pages li {
+    margin-bottom: 10px;
+  }
+  
+  .contact li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .contact a, .pages a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .contact a:hover, .pages a:hover {
+    color: #E53935;
+  }  
