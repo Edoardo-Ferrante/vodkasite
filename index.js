@@ -8,6 +8,12 @@ app.get('/', (req, res) => {
     res.render('index.ejs');
 });
 
+app.get('/buy', (req, res) => {
+    res.render('buy.ejs')
+})
+
+app.get
+
 app.listen(port, () => {
     console.log("Website is live at http://localhost:"+port);
 });
