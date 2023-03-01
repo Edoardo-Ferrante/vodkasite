@@ -10,9 +10,11 @@ app.get('/', (req, res) => {
 
 app.get('/buy', (req, res) => {
     res.render('buy.ejs')
-})
+});
 
-app.get
+app.get('/about', (req, res) => {
+    res.render('about.ejs')
+});
 
 app.listen(port, () => {
     console.log("Website is live at http://localhost:"+port);

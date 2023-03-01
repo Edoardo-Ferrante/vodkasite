@@ -9,9 +9,24 @@
     background-color: #0F9D58;
     overflow: hidden;
   }
+
+  .hero-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #0F9D58;
+  }
+
+  .hero-text h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
   
   .hero img {
     position: absolute;
+    display: block;
     top: 0;
     left: 0;
     width: 100%; /* image width now fills the entire page */
@@ -45,4 +60,16 @@
   .hero button.buy-btn:active {
     box-shadow: none;
     transform: translateY(0);
+  }
+
+  #title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0F9D58;
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
   }
